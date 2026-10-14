@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Check Out</title>
+        <link rel="stylesheet" href="entwined-styles.css"/>
+    </head>
+    <body>
+
+        <div class="navbar-wrap">
+
+            <header>
+                <input type="text" placeholder="⌕" class="header-search"/>
+                <div>
+                    <a href="mainpage.html">
+                        <img src="LOGO N SECTIONS/ENTWINED-logo-transparent.png" alt="LOGO" class="logo"/>
+                    </a>
+                </div>
+                <div class="icon-group">
+                    <a href="checkout-page.html" class="nav-cart">
+                        <img src="Icon Elements/entwined-shopping-cart-icon.png" alt="cart" class="elements"/>
+                    </a>
+                </div>
+            </header>
+
+            <nav>
+                <a href="shop-page.html">Shop</a>
+                <a href="custom-orders.html">Custom Orders</a>
+                <a href="about-us.html">About Us</a>
+                <a href="contact-us.html">Contact Us</a>
+                <a href="checkout-page.html" class="nav-cart scrolled-cart">
+                    <img src="Icon Elements/entwined-shopping-cart-icon.png" alt="cart" class="elements"/>
+                </a>
+            </nav>
+
+        </div>
+
+        <section class="checkout">
+            <h2>CHECKOUT</h2>
+            <div class="checkout-form">
+                <div class="checkout-row">
+                    <label>Name:</label>
+                    <input type="text" />
+                </div>
+                <div class="checkout-row">
+                    <label>Email Address:</label>
+                    <input type="email" />
+                </div>
+                <div class="checkout-row">
+                    <label>Address</label>
+                    <textarea></textarea>
+                </div>
+                <div class="checkout-row">
+                    <label>Payment</label>
+                    <input type="text" />
+                </div>
+            </div>
+        </section>
+
+        <section class="order-summary">
+            <h2>ORDER SUMMARY</h2>
+            <div class="order-item">
+                <img src="Check Out/entwined-rudolf-the-reindeer.jpg" alt="Rudolf the Reindeer" />
+                <div class="order-item-details">
+                    <p class="order-product-label">PRODUCT 1:</p>
+                    <p class="order-product-name">RUDOLF THE REINDEER</p>
+                    <p class="order-product-price">₱ 599.00</p>
+                    <div class="order-meta">
+                        <span class="order-meta-label">Quantity:</span>
+                        <span>1</span>
+                    </div>
+                    <div class="order-meta">
+                        <span class="order-meta-label">Size:</span>
+                        <span>Small</span>
+                    </div>
+                </div>
+            </div>
+            <div class="order-total">
+                <span class="order-total-label">TOTAL:</span>
+                <span class="order-total-price">₱ 599.00</span>
+            </div>
+            <button class="place-order-btn">PLACE ORDER</button>
+        </section>
+
+        <!--FOOTER-->
+
+        <footer>
+            <div class="footer-logo">
+                <img src="LOGO N SECTIONS/ENTWINED-logo-transparent.png" alt="Entwined" />
+            </div>
+            <p class="footer-copy">©&thinsp;2026&nbsp;&nbsp;Entwined</p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
